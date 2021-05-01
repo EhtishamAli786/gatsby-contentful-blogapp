@@ -1,0 +1,86 @@
+.slick-next:before {
+  content: "";
+}
+.slick-prev:before {
+  content: "";
+}
+.slick-track {
+  display: flex;
+  margin-bottom: 10px;
+}
+.arrow-styles {
+  display: flex;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.54);
+  cursor: pointer;
+  position: absolute;
+  top: 38%;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.1);
+}
+.arrow-styles:hover {
+  display: flex;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.54);
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.3);
+}
+.dots__bar {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  border-radius: 40px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.dots__bar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 3px;
+  padding: 0;
+}
+
+.dots__bar li button {
+  border: none;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 5px;
+  width: 11px;
+  border-radius: 100px;
+  background: #e5e5e5;
+}
+
+.dots__bar li.slick-active button {
+  height: 5px;
+  width: 16px;
+  border-radius: 100px;
+  background: #ff9900;
+}
+
+.dots__bar li button:hover,
+.dots__bar li button:focus {
+  background: #ff9900;
+  outline: 0;
+}
+.slick-slide {
+  padding: 0px 12px 0px 4px;
+}
+/* the parent */
+.slick-list {
+  /* margin: 0 -27px; */
+}
+.display-none {
+  display: none !important;
+}
