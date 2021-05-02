@@ -1,4 +1,4 @@
-# Gatsby Contentful Blog App
+# React Contentful Blog App
 
 ## How to run
 
